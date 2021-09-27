@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12897" started-at="2021-09-27T06:51:28Z" finished-at="2021-09-27T06:51:41Z">
+    <groups>
+    </groups>
+    <test name="Tests" duration-ms="81" started-at="2021-09-27T06:51:28Z" finished-at="2021-09-27T06:51:28Z">
+      <class name="LoginTests.A_test">
+        <test-method status="PASS" signature="invalidLoginTest()[pri:0, instance:LoginTests.A_test@b62fe6d]" name="invalidLoginTest" duration-ms="24" started-at="2021-09-27T06:51:28Z" description="Invalid Test" finished-at="2021-09-27T06:51:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:LoginTests.A_test@b62fe6d]" name="validLoginTest" duration-ms="1" started-at="2021-09-27T06:51:28Z" description="Valid Test" finished-at="2021-09-27T06:51:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+      </class> <!-- LoginTests.A_test -->
+    </test> <!-- Tests -->
+    <test name="Test1" duration-ms="9" started-at="2021-09-27T06:51:28Z" finished-at="2021-09-27T06:51:28Z">
+      <class name="LoginTests.B_comparisonTC">
+        <test-method status="PASS" signature="checkComparison()[pri:0, instance:LoginTests.B_comparisonTC@4b44655e]" name="checkComparison" duration-ms="7" started-at="2021-09-27T06:51:28Z" finished-at="2021-09-27T06:51:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkComparison -->
+      </class> <!-- LoginTests.B_comparisonTC -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="12758" started-at="2021-09-27T06:51:28Z" finished-at="2021-09-27T06:51:41Z">
+      <class name="LoginTests.D_LoginAuth">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:LoginTests.D_LoginAuth@1e730495]" name="beforeTest" is-config="true" duration-ms="4591" started-at="2021-09-27T06:51:28Z" finished-at="2021-09-27T06:51:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="doLogin()[pri:0, instance:LoginTests.D_LoginAuth@1e730495]" name="doLogin" duration-ms="5172" started-at="2021-09-27T06:51:32Z" finished-at="2021-09-27T06:51:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:LoginTests.D_LoginAuth@1e730495]" name="afterTest" is-config="true" duration-ms="2986" started-at="2021-09-27T06:51:38Z" finished-at="2021-09-27T06:51:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- LoginTests.D_LoginAuth -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
